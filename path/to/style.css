@@ -1,0 +1,57 @@
+/* Warna Dasar */
+:root {
+    --primary-color: #007bff; /* Warna utama (biru) */
+    --secondary-color: #6c757d; /* Warna sekunder (abu-abu) */
+    --success-color: #28a745; /* Warna sukses (hijau) */
+    --info-color: #17a2b8; /* Warna informasi (biru muda) */
+    --warning-color: #ffc107; /* Warna peringatan (kuning) */
+    --danger-color: #dc3545; /* Warna bahaya (merah) */
+    --light-color: #f8f9fa; /* Warna latar belakang terang */
+    --dark-color: #343a40; /* Warna latar belakang gelap */
+  }
+  
+  /* Style untuk navbar */
+  .navbar {
+    background-color: var(--primary-color);
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #f8f9fa;
+  }
+  
+  /* Style untuk jumbotron */
+  .jumbotron {
+    background-color: var(--light-color);
+  }
+  
+  /* Style untuk tombol utama */
+  .btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Warna biru yang lebih tua */
+    border-color: #0056b3;
+  }
+  
+  /* Style untuk carousel */
+  .carousel-item img {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  /* Style untuk accordion */
+  .card-header {
+    background-color: var(--light-color);
+  }
+  
+  /* Style untuk tabel */
+  .table th, .table td {
+    background-color: var(--light-color);
+  }
+  
